@@ -1,0 +1,84 @@
+* DONE Organisatie
+** DONE todolijstje maken in org
+*** DONE indeling maken
+
+* DONE HTML
+
+** template
+- [x] head
+- [ ] header
+- [ ] footer
+
+** DONE index.html
+
+** Projects
+
+*** DONE Urk
+**** Urk House
+**** Tower
+**** Heineken Bar
+
+*** DONE Bubbler
+
+*** DONE Piedruja-druja
+**** Window
+
+*** DONE Diary of Lasulauks
+
+*** DONE Drinking Jacket
+
+*** DONE Shapes of Play
+
+** Writings
+*** DONE Split by a river
+*** DONE Turn off the main road
+*** DONE Light-weight heavy-duty
+*** DONE Stuck between
+*** DONE Ignorant leaf
+
+** about.html
+*** DONE statement
+*** DONE c.v.
+- [X] exhibitions
+- [X] publications
+- [X] experience
+- [X] education
+- [X] grants
+*** TODO contact
+
+https://blog.markvincze.com/how-i-created-my-cv-with-modern-html-and-css/
+
+* TODO CSS
+
+# eerst leesbaar en navigeerbaar maken
+# dan mooi
+
+** general
+*** font
+*** body
+*** header
+*** footer
+*** colors
+
+** start page / projects index
+
+** TODO writings index
+*** DONE illustrator bestanden opknippen
+**** DONE Split by a river
+**** DONE Turn off the main road
+**** DONE Light-weight heavy-duty
+**** DONE Stuck between
+**** DONE Ignorant leaf
+
+** project page
+*** text
+*** images
+
+** 
+
+** TODO about page
+*** cv
+*** contact
+
+**** RESPONSIVE DESIGN
+* CONFIGURATION
