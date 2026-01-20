@@ -1,56 +1,56 @@
 @font-face {
-    font-family: Feroniapi;
-    src: url(fonts/feroniapi-main/fonts/woff2/Feroniapi-MediumItalic.woff2);
+  font-family: Feroniapi;
+  src: url(fonts/feroniapi-main/fonts/woff2/Feroniapi-MediumItalic_edit.woff2), url(fonts/feroniapi-main/fonts/woff/Feroniapi-MediumItalic_edit.woff), url(fonts/feroniapi-main/fonts/otf/Feroniapi-MediumItalic_edit.otf);
 }
 
 @font-face {
-    font-family: Interlope;
-    src: url(fonts/interlope-main/font/web/Interlope-Regular.woff2);
+  font-family: Interlope;
+  src: url(fonts/interlope-main/font/web/Interlope-Regular.woff2);
 }
 
 @font-face {
-    font-family: iAWriter Quattro;
-    src: url(fonts/iawriter-quattro/Webfonts/iAWriterQuattroS-Regular.woff2);
+  font-family: iAWriter Quattro;
+  src: url(fonts/iawriter-quattro/Webfonts/iAWriterQuattroS-Regular.woff2);
 }
 
 @font-face {
-    font-family: iAWriter Quattro;
-    font-style: italic;
-    src: url(fonts/iawriter-quattro/Webfonts/iAWriterQuattroS-Italic.woff2);
+  font-family: iAWriter Quattro;
+  font-style: italic;
+  src: url(fonts/iawriter-quattro/Webfonts/iAWriterQuattroS-Italic.woff2);
 }
 
 body {
-    /* font-family: "Feroniapi"; */
-    font-family: iAWriter Quattro;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #f6f2f1;
-    min-height: 100vh;
-    margin: 0;
+  /* font-family: "Feroniapi"; */
+  font-family: iAWriter Quattro;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f6f2f1;
+  min-height: 100vh;
+  margin: 0;
 }
 
 p {
-    font-family: iAWriter Quattro;
-    font-size: 0.9em;
+  font-family: iAWriter Quattro;
+  font-size: 0.9em;
 }
 
 header,
 header nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
 }
 
 h1#artist-name {
-    font-family: "Feroniapi";
-    font-size: 2.07em;
-    margin-left: 3.27vw;
+  font-family: "Feroniapi";
+  font-size: 2.07em;
+  margin-left: 3.27vw;
 }
 
 nav ul {
-    margin-right: -0.25vw;
+  margin-right: -0.25vw;
 }
 
 /* h1#artist-name:hover { */
@@ -62,302 +62,326 @@ header nav,
 header nav ul li,
 main,
 footer {
-    margin: 1.75vw;
-    padding: 0;
+  margin: 1.75vw;
+  padding: 0;
 }
 
 h1,
 h2 {
-    /* font-family: "Feroniapi"; */
-    font-size: 1.3em;
+  /* font-family: "Feroniapi"; */
+  font-size: 1.3em;
 }
 
 h3 {
-    font-family: "Feroniapi";
-    font-size: 1.75em;
-    margin-top: 0;
-    margin-bottom: 0;
+  font-family: "Feroniapi";
+  font-size: 1.75em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h3 time {
-    font-family: iAWriter Quattro;
-    float: right;
-    margin-left: 1ch;
-    color: #9a9996;
-    font-size: 0.9em;
-    margin-top: -2px;
+  font-family: iAWriter Quattro;
+  float: right;
+  margin-left: 1ch;
+  color: #9a9996;
+  font-size: 0.9em;
+  margin-top: -2px;
 }
 
 header nav ul li {
-    margin-left: 0.77em;
-    list-style: none;
+  margin-left: 0.77em;
+  list-style: none;
 }
 
 nav ul li h2 {
-    margin-left: 0.77em;
-    /* color: #741BE4; */
-    font-weight: lighter;
+  margin-left: 0.77em;
+  /* color: #741BE4; */
+  font-weight: lighter;
 }
 
 nav ul li h2:hover {
-    font-weight: normal;
-    text-shadow:
-        0 0 0.45px #222,
-        0 0 0.45px #222;
+  font-weight: normal;
+  text-shadow:
+    0 0 0.45px #222,
+    0 0 0.45px #222;
 }
 
 img {
-    width: 100%;
+	width: 100%;
+}
+
+video {
+	width: 100%;
 }
 
 main#writings img {
-    width: 99%;
+  width: 99%;
 }
 
 figure,
 p {
-    margin-left: 2px;
-    margin-right: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* INDEX */
 
 ul li figure {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    aspect-ratio: 1;
-    width: min(100%, 34vh);
-    align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  aspect-ratio: 1;
+  width: min(100%, 34vh);
+  align-self: center;
 }
 
 ul li figure figcaption {
-    font-size: 1.17em;
-    /* color: white; */
-    text-decoration-style: underline;
-    padding: 5px;
-    font-family: "Feroniapi";
-    font-weight: 700;
-    /* background-color: #241F27; */
-    display: block;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: 3px;
+  font-size: 1.17em;
+  /* color: white; */
+  text-decoration-style: underline;
+  padding: 5px;
+  font-family: "Feroniapi";
+  font-weight: 700;
+  /* background-color: #241F27; */
+  display: block;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3px;
 }
 
 ul li figure hr {
-    width: 0px;
+  width: 0px;
 }
 
 ul li:nth-child(even) figure a img {
-    background-color: #deddd6;
+  background-color: #deddd6;
 }
 
 ul li:nth-child(odd) figure a img {
-    background-color: #ded6dd;
+  background-color: #ded6dd;
 }
 
 ul li figure a img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul li figure a img#shapes-of-play {
-    padding: 8px;
+  padding: 8px;
 }
 
 main {
-    margin-top: 60px;
-    /* height: 60vh; */
-    margin-left: 3.27vw;
-    margin-right: 3.27vw;
+  margin-top: 60px;
+  /* height: 60vh; */
+  margin-left: 3.27vw;
+  margin-right: 3.27vw;
 }
 
 main#writings div#double {
-    height: 18.5vh;
+  height: 18.5vh;
 }
 
 main#writings div#double img {
-    stroke: #f6f2f1;
-    stroke-width: 1px;
+  stroke: #f6f2f1;
+  stroke-width: 1px;
 }
 
 main#writings,
-main#cv {
-    margin-left: 3.5vw;
-    margin-right: 3.5vw;
+main#about {
+  margin-left: 3.5vw;
+  margin-right: 3.5vw;
 }
 
 main div {
-    margin-bottom: 22px;
+  margin-bottom: 22px;
+}
+main div.hr-impersonator {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 7.5vw;
 }
 
-/* main div img:hover { */
-/* 	cursor: pointer; */
-/* 	filter: invert(38%) sepia(30%) saturate(1154%) hue-rotate(246deg) brightness(93%) contrast(85%); */
-/* } */
+main#writings div img:hover {
+  cursor: pointer;
+  filter: invert(38%) sepia(30%) saturate(1154%) hue-rotate(246deg)
+    brightness(93%) contrast(85%);
+}
 
 main#index,
 main#writings {
-    height: 71vh;
+  height: 71vh;
 }
 
 ul.grid {
-    height: 100%;
-    display: grid;
-    grid-gap: 8px;
-    grid-template-columns: repeat(3, 1fr);
-    list-style-type: none;
-    padding-left: 0;
+  height: 100%;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  padding-left: 0;
 }
 
 ul.grid li {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 1;
-    justify-content: space-between;
-    height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 1;
+  justify-content: space-between;
+  height: 100%;
 }
 
 ul.grid li a {
-    color: black;
-    flex-shrink: 1;
-    display: inline-block;
+  color: black;
+  flex-shrink: 1;
+  display: inline-block;
 }
 
 ul.grid li figure:hover > figcaption {
-    color: #974ea1;
-    /* text-shadow: 1px 0 #0000cd;  */
+  color: #974ea1;
+  /* text-shadow: 1px 0 #0000cd;  */
 }
 
 ul.grid li figure:hover > a img {
-    background-color: #d6dade;
-    /* text-shadow: 1px 0 #0000cd;  */
+  background-color: #d6dade;
+  /* text-shadow: 1px 0 #0000cd;  */
 }
 
 ul.grid li a h3 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 ul.grid li figure {
-    height: auto;
-    margin: 0;
+  height: auto;
+  margin: 0;
 }
 
 ul.grid li a img {
-    object-fit: contain;
-    border-radius: 3px;
-    width: 85%;
-    aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: 3px;
+  width: 85%;
+  aspect-ratio: 1;
 }
 
 ul.grid li h4 {
-    margin-top: 4px;
-    font-family: "Feroniapi";
-    font-style: italic;
-    font-weight: 300;
+  margin-top: 4px;
+  font-family: "Feroniapi";
+  font-style: italic;
+  font-weight: 300;
 }
 
 /* ----- */
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:focus {
-    color: initial;
+  color: initial;
 }
 
 a.current {
-    color: #f3a3ff;
+  color: #f3a3ff;
 }
 
 h1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 main p {
-    max-width: 70ch;
+  max-width: 70ch;
 }
 
 /* PAGE */
 
-section p {
-    font-size: 1.1em;
-    margin-top: 7.5vw;
-    margin-bottom: 7.5vw;
+p {
+  font-size: 1.1em;
+  margin-top: 7.5vw;
+  margin-bottom: 7.5vw;
 }
 
-section {
-    margin-bottom: 15vw;
+h4 {
+	margin-top: 2.5vw;
+  margin-bottom: 5vw;
+}
+
+div.hr-impersonator {
+	width: 100%;
+	font-family: "Feroniapi";
+	font-size:3.5em;
 }
 
 hr {
-    margin-top: 60px;
-    margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-/* CV */
+/* ABOUT */
 
-main#cv h2#top-heading {
-    margin-top: 0;
+main#about h2#top-heading {
+  margin-top: 0;
 }
 
-main#cv article {
-    display: flex;
-    justify-content: start;
-    gap: 15vw;
-    align-items: end;
+main#about article {
+  display: flex;
+  justify-content: start;
+  gap: 15vw;
+  align-items: end;
 }
 
-main#cv article img {
-    width: 20vw;
-    transform: rotate(94deg);
-    margin: 1.36vw;
+main#about article img {
+  width: 20vw;
+  transform: rotate(94deg);
+  margin: 1.36vw;
 }
 
-main#cv h2 {
-    margin-top: 5em;
-    margin-bottom: 2.6em;
-    font-weight: 500;
+main#about p {
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;
 }
 
-main#cv h3 {
-    font-size: 1.1em;
+main#about h2 {
+  margin-top: 5em;
+  margin-bottom: 2.6em;
+  font-weight: 500;
 }
 
-main#cv div.period {
-    align-content: start;
+main#about h3 {
+  font-size: 1.25em;
 }
 
-main#cv div.period p {
-    font-family: iAWriter Quattro;
-    font-size: 1em;
-    margin-top: 0;
-    margin-bottom: 0;
+main#about div.period {
+  align-content: start;
 }
 
-main#cv article {
-    margin-bottom: 5rem;
+main#about div.period p {
+  font-family: iAWriter Quattro;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-main#cv article strong {
-    font-size: 1.25em;
+main#about article {
+  margin-bottom: 5rem;
 }
 
-main#cv section {
-    margin-left: 0;
-    margin-right: 0;
-    display: grid;
-    grid-template-columns: 20rem 1fr;
-    row-gap: 1rem;
+main#about article strong {
+  font-size: 1.25em;
 }
 
-main#cv > section {
-    margin-bottom: 1.5rem;
+main#about section {
+  margin-left: 0;
+  margin-right: 0;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  row-gap: 1rem;
+}
+
+main#about > section {
+  margin-bottom: 0.75rem;
 }
 
 /* div.row { */
@@ -366,103 +390,109 @@ main#cv > section {
 /* } */
 
 div.row {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-columns: repeat(8, 1fr);
-    gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 16px;
 }
 
 .row figure {
-    width: 42vw;
+  width: 100%;
 }
 
 div.four-grid {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(10, 1fr);
-    gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 8px;
 }
 
 div.four-grid div,
 div.four-grid figure {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 div.four-grid div.cell1 {
-    grid-column: span 4 / span 4;
-    grid-row: span 5 / span 5;
+  grid-column: span 4 / span 4;
+  grid-row: span 5 / span 5;
 }
 
 div.four-grid div.cell2 {
-    grid-column: span 4 / span 4;
-    grid-row: span 5 / span 5;
-    grid-column-start: 5;
-    grid-row-start: 6;
+  grid-column: span 4 / span 4;
+  grid-row: span 5 / span 5;
+  grid-column-start: 5;
+  grid-row-start: 6;
 }
 
 div.four-grid div.cell3 {
-    grid-column: span 4 / span 4;
-    grid-row: span 5 / span 5;
-    grid-column-start: 5;
-    grid-row-start: 1;
+  grid-column: span 4 / span 4;
+  grid-row: span 5 / span 5;
+  grid-column-start: 5;
+  grid-row-start: 1;
 }
 
 div.four-grid div.cell4 {
-    grid-column: span 4 / span 4;
-    grid-row: span 5 / span 5;
-    grid-column-start: 1;
-    grid-row-start: 6;
+  grid-column: span 4 / span 4;
+  grid-row: span 5 / span 5;
+  grid-column-start: 1;
+  grid-row-start: 6;
 }
 
 /* FOOTER */
 
 footer {
-    font-family: iAWriter Quattro;
-    margin: 1.5em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5vh;
+  font-family: iAWriter Quattro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+	margin-left: 3.27vw;
 }
 
 footer p {
-    font-size: 15px;
-    margin-right: 1em;
+  font-size: 15px;
+  margin-right: 1em;
 }
 
 footer div#mail p:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+footer div#up {
+  font-family: "Feroniapi";
+  font-size: 2.1em;
 }
 
 footer div#dingetje a p {
-    font-size: 2.4em;
+  font-size: 2.4em;
+  font-family: Feroniapi;
 }
 
 footer div#dingetje p.self-promotion_hidden:hover {
-    color: #974ea1;
-    cursor: help;
+  color: #974ea1;
+  cursor: help;
 }
 
 footer div#dingetje p.self-promotion_hidden {
-    font-size: 34px;
-    margin-right: 0.75em;
+  font-size: 31px;
+  margin-right: 0.75em;
 }
 
 footer div#dingetje p.self-promotion_shown:hover {
-    color: #974ea1;
+  color: #974ea1;
 }
 
 footer div#dingetje p.self-promotion_shown {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 footer div#dingetje p.self-promotion_shown a#website-pum {
-    cursor: alias;
-    color: black;
+  cursor: alias;
+  color: black;
 }
 
 footer div#dingetje p.self-promotion_shown a#website-pum:hover {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
