@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: Feroniapi;
   src: url(fonts/feroniapi-main/fonts/woff2/Feroniapi-MediumItalic_edit.woff2), url(fonts/feroniapi-main/fonts/woff/Feroniapi-MediumItalic_edit.woff), url(fonts/feroniapi-main/fonts/otf/Feroniapi-MediumItalic_edit.otf);
@@ -35,22 +36,28 @@ p {
   font-size: 0.9em;
 }
 
+header {
+	margin-left: 3.27vw;
+	margin-right: 3.27vw;
+}
+
 header,
 header nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10vh;
 }
 
 h1#artist-name {
-  font-family: "Feroniapi";
-  font-size: 2.07em;
-  margin-left: 3.27vw;
+	font-family: "Feroniapi";
+	font-size: 1.75em;
+	margin-left: 0;
+	padding-top: .15em;
 }
 
 nav ul {
-  margin-right: -0.25vw;
+	margin-right: -1.75vw;
 }
 
 /* h1#artist-name:hover { */
@@ -62,8 +69,12 @@ header nav,
 header nav ul li,
 main,
 footer {
-  margin: 1.75vw;
-  padding: 0;
+	margin: 1.75vw;
+	padding: 0;
+}
+
+header nav {
+	margin-right: 0;
 }
 
 h1,
@@ -120,10 +131,10 @@ main#writings img {
 
 figure,
 p {
-  margin-left: 2px;
-  margin-right: 2px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	  margin-top: 20px;
+	  margin-bottom: 20px;
 }
 
 /* INDEX */
@@ -299,8 +310,8 @@ main p {
 
 p {
   font-size: 1.1em;
-  margin-top: 7.5vw;
-  margin-bottom: 7.5vw;
+  margin-top: 6vw;
+  margin-bottom: 6.25vw;
 }
 
 h4 {
@@ -325,11 +336,27 @@ main#about h2#top-heading {
   margin-top: 0;
 }
 
+figure#whale img {
+	width: 85%;
+	margin-left: 4vw;
+}
+
+/* main#about article { */
+/*   display: flex; */
+/*   justify-content: start; */
+/*   gap: 15vw; */
+/*   align-items: end; */
+/* } */
+
 main#about article {
-  display: flex;
-  justify-content: start;
-  gap: 15vw;
-  align-items: end;
+	font-style: italic;
+
+}
+
+main#about article div {
+	padding-left: .2vw;
+	padding-right: .2vw;
+	max-width: 44ch;
 }
 
 main#about article img {
@@ -389,14 +416,14 @@ main#about > section {
 /* 	justify-content: space-between; */
 /* } */
 
-div.row {
+.row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 16px;
 }
 
-.row figure {
+.row figure, .row div {
   width: 100%;
 }
 
@@ -448,11 +475,19 @@ footer {
   align-items: center;
   height: 5vh;
 	margin-left: 3.27vw;
+	margin-right: 3.27vw;
 }
 
 footer p {
-  font-size: 15px;
+  font-size: 1em;
   margin-right: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer div#mail a {
+	margin-botom: 0;
+	margin-top: 0;
 }
 
 footer div#mail p:hover {
@@ -469,30 +504,25 @@ footer div#dingetje a p {
   font-family: Feroniapi;
 }
 
+footer div#dingetje span#font-example {
+	font-family: "Feroniapi";
+	font-size:1.23em;
+	font-weight: bold;
+	padding-right: 3px;
+}
+
 footer div#dingetje p.self-promotion_hidden:hover {
   color: #974ea1;
   cursor: help;
 }
 
 footer div#dingetje p.self-promotion_hidden {
-  font-size: 31px;
-  margin-right: 0.75em;
-}
-
-footer div#dingetje p.self-promotion_shown:hover {
-  color: #974ea1;
+  font-size: 2.5em;
+  margin-right: 0.25em;
 }
 
 footer div#dingetje p.self-promotion_shown {
   font-size: 0.9em;
-}
-
-footer div#dingetje p.self-promotion_shown a#website-pum {
-  cursor: alias;
-  color: black;
-}
-
-footer div#dingetje p.self-promotion_shown a#website-pum:hover {
-  color: black;
-  text-decoration: underline;
+	cursor: e-resize;
+	margin-right: 0.25em;
 }
