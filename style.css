@@ -125,8 +125,20 @@ video {
 	width: 100%;
 }
 
+main#writings div, main#writings div a {
+	height: auto;
+}
+
+main#writings div a {
+	display: block;
+}
+
 main#writings img {
   width: 99%;
+}
+
+main#writings img.medium, main#writings img.short {
+	display: none;
 }
 
 figure,
@@ -222,8 +234,7 @@ main#writings div img:hover {
     brightness(93%) contrast(85%);
 }
 
-main#index,
-main#writings {
+main#index {
   height: 71vh;
 }
 
@@ -317,6 +328,8 @@ p {
 h4 {
 	margin-top: 2.5vw;
   margin-bottom: 5vw;
+	font-size: 0.833em;
+	font-weight: 100;
 }
 
 div.hr-impersonator {
@@ -527,6 +540,66 @@ footer div#dingetje p.self-promotion_shown {
 	margin-right: 0.25em;
 }
 
+@media (max-width: 1282px) {
+
+	body	{
+		font-size: 14px;
+	}
+
+	header, main, footer {
+		margin-left: 4.5vw;
+		margin-right: 4.5vw;
+	}
+
+	main#index, main {
+		height: auto;
+		margin-top: 0;
+		margin-bottom: 60px;
+	}
+
+	main#index {
+		margin-top: 3vw;
+		margin-bottom: 3.5vw;
+	}
+
+	main ul.grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	main#about section {
+	  margin-left: 0;
+	  margin-right: 0;
+	  display: grid;
+	  grid-template-columns: repeat(4, 1fr);
+	  grid-template-rows: repeat (1, 1fr);
+	  row-gap: 1rem;
+	}
+
+	main#about section div.thing {
+		grid-column: span 3 / span 3;
+	}
+
+
+	main#writings {
+		margin-top: 8.5vw;
+		margin-bottom: 0;
+	}
+
+	main#writings div, main#writings div#double {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	main#writings img.long, main#writings img.short {
+		display: none;
+	}
+
+	main#writings img.medium {
+			display: initial;
+		}
+
+}
+
 @media (max-width: 790px) {
 	
 	body	{
@@ -596,7 +669,7 @@ footer div#dingetje p.self-promotion_shown {
 	}
 
 	main ul.grid li figcaption {
-		font-size: 1em;
+		font-size: 3.6vw;
 		padding-left: 0;
 		padding-right: 0;
 		margin-bottom: 21px;
@@ -609,6 +682,32 @@ footer div#dingetje p.self-promotion_shown {
 
 	.row {
 		grid-template-columns: repeat(1, 1fr);
+	}
+
+	main#writings {
+		margin-top: 2.5vw;
+		margin-bottom: 0;
+	}
+
+	main#writings div, main#writings div#double {
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	main#writings img.long, main#writings img.medium {
+		display: none;
+	}
+
+	main#writings img.short {
+			display: initial;
+		}
+
+	main#about article.row {
+		margin-bottom: initial;
+	}
+
+	main#about article.row div {
+		margin-bottom: 0;
 	}
 
 	main#about section {
