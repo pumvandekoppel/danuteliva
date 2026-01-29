@@ -14,7 +14,7 @@ console.log("availableSpace:" + availableSpace)
 
 // (zorg dat de breedte van de pagina deelbaar is door de letter
 // en) bereken hoeveel letters daar in passen
-var letterFill = (availableSpace - (availableSpace % letterWidth)) / letterWidth
+var letterFill = Math.trunc((availableSpace - (availableSpace % letterWidth)) / letterWidth)
 console.log("letterFill:" + letterFill)
 
 const pageBreaks = document.getElementsByClassName("hr-impersonator")
