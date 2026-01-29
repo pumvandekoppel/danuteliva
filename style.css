@@ -890,6 +890,10 @@ footer div#dingetje p.self-promotion_shown {
 		width: 5ch;
 	}
 
+	main#about section#education div.period p {
+		width: auto;
+	}
+
 	main#about section div {
 		margin-bottom: 0;
 	}
