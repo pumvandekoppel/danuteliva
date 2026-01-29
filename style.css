@@ -656,6 +656,10 @@ footer div#dingetje p.self-promotion_shown {
 		margin-right: 4.5vw;
 	}
 
+	header {
+		height: auto;
+	}
+
 	main#index, main {
 		height: auto;
 		margin-top: 0;
@@ -671,8 +675,24 @@ footer div#dingetje p.self-promotion_shown {
 	width: 75%;
 }
 
-	main ul.grid {
-		grid-template-columns: repeat(2, 1fr);
+	main figure {
+		margin-bottom: 0;
+	}
+
+	main .row {
+		gap: 0;
+	}
+
+	/* main ul.grid { */
+	/* 	grid-template-columns: repeat(2, 1fr); */
+	/* } */
+
+	main .four-grid, main .four-grid_wide {
+		display: initial;
+	}
+
+	main .four-grid div, main .four-grid_wide div {
+		margin-top: 20px;
 	}
 
 	main#about section {
