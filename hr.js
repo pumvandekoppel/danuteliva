@@ -42,7 +42,8 @@ fillHr()
 // check of pagina breedte verandert
 // zoja voer functie uit
 window.addEventListener("resize", function(event) {
-	"use strict";
-	   window.location.reload();
-	fillHr()
+	if (window.innerWidth > 790) {
+		window.location.reload();
+		fillHr()
+	}
 })
