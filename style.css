@@ -686,6 +686,15 @@ footer div#dingetje p.self-promotion_shown {
 		margin-bottom: 0;
 	}
 
+	main ul.grid {
+		gap: 5vw;
+	}
+	
+	main ul.grid li {
+		width: 31%;
+		margin-bottom: 0;
+	}
+
 	main .row {
 		gap: 0;
 	}
