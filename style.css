@@ -161,7 +161,6 @@ ul li figure {
   flex-direction: column;
   align-content: center;
   aspect-ratio: 1;
-  width: min(100%, 21vw);
   align-self: center;
 }
 
@@ -246,26 +245,32 @@ main#index {
 
 ul.grid {
   height: 100%;
-  display: grid;
-  grid-gap: 8px;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   list-style-type: none;
   padding-left: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 0;
 }
 
 ul.grid li {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  flex: 1 1 1;
   justify-content: space-between;
-  height: 100%;
+  min-width: 30px;
+  min-height: 30px;
+  width: 22vw;
+  height: 29vh;
+  margin-bottom: 44px;
 }
 
 ul.grid li a {
   color: black;
-  flex-shrink: 1;
-  display: inline-block;
+  display: initial;
+  max-width: 100%;
+  max-height: 100%;
+  
 }
 
 ul.grid li figure:hover > figcaption {
@@ -283,14 +288,15 @@ ul.grid li a h3 {
 }
 
 ul.grid li figure {
-  height: auto;
+  height: 100%;
+  width: 100%;
   margin: 0;
 }
 
 ul.grid li a img {
   object-fit: contain;
   border-radius: 3px;
-  width: 85%;
+  height: 86%;
   aspect-ratio: 1;
 }
 
@@ -812,10 +818,6 @@ footer div#dingetje p.self-promotion_shown {
 		margin-bottom: 15px;
 	}
 
-	main ul.grid li figure {
-		width: 100%;
-	}
-
 	main ul.grid li figcaption {
 		font-size: 3.6vw;
 		padding-left: 0;
@@ -899,7 +901,7 @@ footer div#dingetje p.self-promotion_shown {
 	}
 
 	footer {
-		margin-bottom: 4vw;
+		margin-bottom: 3.25vw;
 	}
 }
 
