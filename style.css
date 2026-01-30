@@ -817,6 +817,8 @@ footer div#dingetje p.self-promotion_shown {
 		padding-left: 0;
 		padding-right: 0;
 		margin-bottom: 15px;
+		width: 100%;
+		height: 100%;
 	}
 
 	main ul.grid li figcaption {
@@ -828,7 +830,7 @@ footer div#dingetje p.self-promotion_shown {
 	}
 
 	main ul.grid li figure img {
-		width: 75%;
+		height: 100%;
 	}
 
 	.row {
